@@ -1,0 +1,64 @@
+
+/* default */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* hr-cards-container */
+.hr{
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flexbox;
+    padding: 30px;
+}
+
+/* full-size-of-each-cards */
+.structure, .staff-schedule, .position, .calendar, .work-graphic, .colleagues, .physical-person, .recruitment, .staff-turnover, .exempt, .holiday, .business-trip, .sick-leaflet, .awards{
+    width: 305px;
+    height: 208px;
+    box-sizing: border-box;
+    float: left;
+    margin: 20px;
+}
+
+/* header-of-cards */
+.circle-structure, .circle-staff-schedule, .circle-position, .circle-calendar, .circle-work-graphic, .circle-colleagues, .circle-physical-person, .circle-recruitment, .circle-staff-turnover, .circle-exempt, .circle-holiday, .circle-business-trip, .circle-sick-leaflet, .circle-awards{
+    width: 76px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #FCA61E;
+    box-shadow: 0 4px rgba(252, 166, 30, .25);
+    z-index: 1;
+    position: relative;
+    margin-left: 33px;
+}
+.material-symbols-outlined{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: white;
+    font-size: 35px !important;
+}
+
+/* body-of-cards */
+.box-structure, .box-staff-schedule, .box-position, .box-calendar, .box-work-graphic, .box-colleagues, .box-physical-person, .box-recruitment, .box-staff-turnover, .box-exempt, .box-holiday, .box-business-trip, .box-sick-leaflet, .box-awards{
+    width: 305px;
+    height: 173px;
+    border-radius: 20px;
+    border: 2px solid #FCA61E;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -35px;
+}
+h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    color: #805918;
+}
+
